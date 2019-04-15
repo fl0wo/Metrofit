@@ -32,7 +32,7 @@ Step 2. Add the dependency in app/build.gradle :
 
 ```
 dependencies {
-        implementation 'com.github.fl0wo:Metrofit:Tag'
+        implementation 'com.github.fl0wo:Metrofit:0.0.1'
 }
 ```
 
