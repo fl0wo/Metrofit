@@ -33,6 +33,14 @@ Step 2. Add the dependency in app/build.gradle :
 ```
 dependencies {
         implementation 'com.github.fl0wo:Metrofit:0.0.1'
+	implementation('com.squareup.retrofit2:retrofit:2.3.0') {
+		exclude module: 'okhttp'
+	    }
+	    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+	    implementation 'io.reactivex.rxjava2:rxjava:2.1.9'
+	    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+	    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+	    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
 }
 ```
 
