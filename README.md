@@ -130,10 +130,8 @@ Please use the 'metrofit' tag on StackOverflow to discuss Metrofit or to post qu
 
 ### License
 
-Gson is released under the [Flo 2.0 license](LICENSE).
-
 ```
-Copyright 2008 Flo Inc.
+Copyright 2019 Flo Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
